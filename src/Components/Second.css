@@ -1,3 +1,18 @@
+.btn1:hover{
+    text-decoration:underline;
+}
+.content1{
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 25rem;
+    background-color: #a6a4a449;
+    opacity: 0;
+}
+.content:hover{
+    opacity: 1;
+}
 .side-bar{
     height: 100vh;
     overflow-y: auto;
@@ -14,4 +29,7 @@
 }
 ::-webkit-scrollbar-thumb:hover{
     background: #0D0E0D;
+}
+.showbtn:hover{
+    text-decoration: underline;
 }
